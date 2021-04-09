@@ -1,0 +1,140 @@
+* {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+body {
+  background: white;
+  font-family: sans-serif;
+  font-family: "Mulish", sans-serif;
+}
+
+#row {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.NewConfirmed,
+.NewDeaths,
+.NewRecovered,
+.TotalConfirmed,
+.TotalDeaths,
+.TotalRecovered {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+.card {
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 13px 10px -7 rgba(0, 0, 0, 0.2);
+}
+.recover__card {
+  background: #dff5e4;
+  color: #34944f;
+}
+.recover__card:hover {
+  background-color: #a9e8bb;
+  transition: all 0.5s ease-in-out;
+}
+.total_recover_h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.total_recover_number {
+  font-size: 35px;
+}
+.newConfirmedCard {
+  background-color: #d1deed;
+  color: #017bff;
+}
+.newConfirmedCard:hover {
+  background-color: #a7caf2;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.newConfirmedh3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.newConfirmednumber {
+  font-size: 35px;
+}
+.NewDeathsCard {
+  background-color: #f2ebec;
+  color: #e23028;
+}
+.NewDeathsCard:hover {
+  background-color: #e8c1c6;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.NewDeathsh3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.NewDeathsnumber {
+  font-size: 35px;
+}
+.NewRecoveredCard {
+  background-color: #cfe3d0;
+  color: #34944e;
+}
+.NewRecoveredCard:hover {
+  background-color: #b9f0bb;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.NewRecoveredh3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.NewRecoverednumber {
+  font-size: 35px;
+}
+.TotalConfirmedCard {
+  background-color: #e6fcfb;
+  color: #1aa19b;
+}
+.TotalConfirmedCard:hover {
+  background-color: #a7ebe8;
+  transition: 00.5s ease-in-out;
+  cursor: pointer;
+}
+.TotalConfirmedh3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.TotalConfirmednumber {
+  font-size: 35px;
+}
+.TotalDeathsCard {
+  background-color: #faebee;
+  color: #de6a80;
+}
+.TotalDeathsCard:hover {
+  background-color: #f5dadf;
+  transition: 00.5s ease-in-out;
+  cursor: pointer;
+}
+.TotalDeathsh3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.TotalDeathsnumber {
+  font-size: 35px;
+}
+.navbar a:hover {
+  color: #3498db !important;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
